@@ -46,13 +46,31 @@
         </div>
     </header>
     <!-- header -->
+    <style>
+      .circle-img {
+          width: 200px; /* İmajın genişliği */
+          height: 200px; /* İmajın yüksekliği */
+          border-radius: 50%; /* Yuvarlak kenarlığın uygulandığı alan */
+          overflow: hidden; /* Kenar dışı içeriğin gizlenmesini sağlar */
+      }
+      .circle-img img {
+          width: 100%; /* İmajın genişliği %100 olarak ayarlanır */
+          height: auto; /* Otomatik yükseklik ayarlanır */
+          display: block; /* İmajın blok öğe olarak görüntülenmesini sağlar */
+          object-fit: cover; /* İmajın içeriği boyutunu korur ve kırpma yapar */
+          border-radius: 50%; /* İmajın yuvarlak kenarları */
+      }
+  </style>
     <!-- banner -->
     <div class="ds-banner">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
             <figure>
+
+    <div class="circle-img">
               <img src="https://media.licdn.com/dms/image/D4D03AQFt1G-KqK1RAw/profile-displayphoto-shrink_200_200/0/1718250083017?e=1725494400&v=beta&t=KPvATLoV3S3jL3X7HkMAzeylTyRWFQIaxh6TE3buuyE">
+              </div>
             </figure>
           </div>
           <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
@@ -65,6 +83,10 @@
                   <li>
                     <strong>3+</strong>
                     <span>Experience</span>
+                  </li>
+                  <li>
+                    <strong>3/4</strong>
+                    <span>Education</span>
                   </li>
                 </ul>
             </section>
@@ -94,128 +116,84 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-             <h2 class="ds-heading">Programming Languages:</h2>
+             <h2 class="ds-heading">Frontend Development</h2>
              <ul class="ds-skills-list">
-               <li>JavaScript</li>
-               <li>C/C++</li>
-               <li>C#</li>
-               <li>Python</li>
-               <li>Go</li>
-               <li>Java</li>
-
+               <li>Frameworks: Experience with React, Angular, and Vue.js. Familiar with Next.js for server-side rendering. Worked with Micro Frontend architectures using Module Federation and Bit.dev.</li>
+               <li>Languages: Proficient in HTML5, CSS3, JavaScript (ES6+), and TypeScript for modern web application development.</li>
              </ul>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <h2 class="ds-heading">Programming Languages1:</h2>
+            <h2 class="ds-heading">Backend Development</h2>
             <ul class="ds-skills-list">
-              <li>JavaScript</li>
-              <li>C/C++</li>
-              <li>C#</li>
-              <li>Python</li>
-              <li>Go</li>
-              <li>Java</li>
-
+              <li>Languages & Frameworks:
+                Go: Proficient in Go with libraries such as Fiber, Gin, and Echo for backend services and API development.
+                Java: Proficient in Java with experience using Spring Boot for backend services.
+                C#: Proficient in C# and .NET Core for API development.
+                Node.js: Experience with Node.js and Express.js.</li>
             </ul>
          </div>
          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <h2 class="ds-heading">Programming Languages2:</h2>
+          <h2 class="ds-heading">Messaging Systems</h2>
           <ul class="ds-skills-list">
-            <li>JavaScript</li>
-            <li>C/C++</li>
-            <li>C#</li>
-            <li>Python</li>
-            <li>Go</li>
-            <li>Java</li>
-
+            <li>Experience with Apache Kafka and RabbitMQ for data streaming architectures.</li>
           </ul>
        </div>
        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-        <h2 class="ds-heading">Programming Languages3:</h2>
+        <h2 class="ds-heading">Databases</h2>
         <ul class="ds-skills-list">
-          <li>JavaScript</li>
-          <li>C/C++</li>
-          <li>C#</li>
-          <li>Python</li>
-          <li>Go</li>
-          <li>Java</li>
-
+          <li>Knowledgeable in MySQL, PostgreSQL, MongoDB, Redis, Clickhouse, MSSQL, and SQLite.</li>
         </ul>
      </div>
      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-      <h2 class="ds-heading">Programming Languages4:</h2>
+      <h2 class="ds-heading">Microservices</h2>
       <ul class="ds-skills-list">
-        <li>JavaScript</li>
-        <li>C/C++</li>
-        <li>C#</li>
-        <li>Python</li>
-        <li>Go</li>
-        <li>Java</li>
+        <li>Experience in designing and deploying microservices architectures using Docker and Kubernetes for scalability and resilience.</li>
 
       </ul>
    </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <h2 class="ds-heading">Other Skills</h2>
-            <ul class="ds-skills-list">
-              <li>ONOS Controller</li>
-              <li>Mininet</li>
-              <li>Wordpress</li>
-              <li>MySQL</li>
-              <li>Arduino</li>
-              <li>MIFARE Tech</li>
-              <li>HTML,CSS+Tailwind(CSS), JavaScript, React.js,
-Redux, Node.js, Express.js, WebSocket</li><li>
-JWT (JSON Web Token), OAuth and OpenID </li>
-<li>
-SQL (MySQL, MSSQL, PostgreSQL, SQLite, Clickhouse),
-NoSQL(MongoDB)</li>
+   <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <h2 class="ds-heading">Monitoring and Logging</h2>
+    <ul class="ds-skills-list">
+      <li>Experience with monitoring solutions using Prometheus, Grafana, and the ELK Stack (Elasticsearch, Logstash, Kibana) for real-time insights.</li>
 
-<li>
-Git, Docker
+    </ul>
+ </div>
+ <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+  <h2 class="ds-heading">Protocols</h2>
+  <ul class="ds-skills-list">
+    <li>Proficient in designing GraphQL and RESTful APIs and implementing gRPC for microservices communication.</li>
+  </ul>
+</div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+  <h2 class="ds-heading">DevOps</h2>
+  <ul class="ds-skills-list">
+    <li>CI/CD: Experience in setting up and managing CI/CD pipelines with GitLab CI, ArgoCD for automated testing and deployment.</li>
 
-</li>
+  </ul>
+</div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+  <h2 class="ds-heading">Version Control & Collaboration</h2>
+  <ul class="ds-skills-list">
+    <li>Proficient in Git, GitHub, GitLab, and Bitbucket for version control, code review, and collaboration.</li>
 
-<li>
-Microservices Architecture, RESTful API, Soap
-API
+  </ul>
+</div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+  <h2 class="ds-heading">Agile Methodologies</h2>
+  <ul class="ds-skills-list">
+    <li>Applied Agile methodologies such as Scrum and Kanban for iterative development and continuous improvement.</li>
 
-</li>
-<li>
-Jenkins, GitLab CI, ArgoCD
+  </ul>
+</div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+  <h2 class="ds-heading">AI/ML</h2>
+  <ul class="ds-skills-list">
+    <li>Beginner Level: Basic understanding of machine learning concepts and AI, including familiarity with Python libraries TensorFlow, Keras, and scikit-learn.</li>
 
-</li>
-<li>
-  Kubernetes
-  </li>
-  <li>
-    Kafka
-    </li>
-<li>
-Selenium,Gesture,Jest
-</li>
-<li>
-Visual Studio Code (VSCode)
-Postman and Swagger
-Unity, QT
-</li>
-<li>
-Scrum, Agile Software Development, Jira and
-Agile Board, Trello and Kanban
-</li>
-<li>
-TCP/IP Protocols
-OSI model and layered network structures.
-SDN (Software-Defined Networking)
-SDN Controllers
-Development of SDN applications.
-Network Virtualization - Virtual networking
-concepts such as VLANs and VXLAN.
-Cloud Networking - Network management on
-cloud platforms such as AWS and Azure.
-Network Management Tools - Wireshark and
-Packet Analysis
-</li>
-            </ul>
-          </div>
+  </ul>
+</h2>
+</div>
+          
         </div>
       </div>
     </div>
